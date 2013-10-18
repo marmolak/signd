@@ -1,0 +1,7 @@
+#!/bin/sh
+
+USER="dns-data"
+LIB_PATH="/var/zones/devel/signd/lib/"
+EXEC="/var/zones/devel/signd/signd.pl"
+
+su -c "perl -T -I$LIB_PATH $EXEC" $USER

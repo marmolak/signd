@@ -1,0 +1,14 @@
+# password for signd user to database
+$signd_db_pass = '';
+
+# where are zones
+$zones_dir = '/var/zones/pri/';
+
+# tmpfs is your friend
+$tmp_dir = undef;
+
+# NSD user
+$nsd_user = 'nsd';
+
+# user under we run
+$user = 'dns-data';
